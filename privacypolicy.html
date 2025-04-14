@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Expense X</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root[data-theme="light"] {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-color: #1f2937;
+            --light-bg: #f3f4f6;
+            --body-bg: #ffffff;
+            --header-bg: #ffffff;
+        }
+
+        :root[data-theme="dark"] {
+            --primary-color: #60a5fa;
+            --secondary-color: #3b82f6;
+            --text-color: #e5e7eb;
+            --light-bg: #374151;
+            --body-bg: #1f2937;
+            --header-bg: #111827;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--body-bg);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--header-bg);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--primary-color);
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .privacy-content {
+            padding: 8rem 0 4rem;
+        }
+
+        .privacy-header {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .privacy-header h1 {
+            font-size: 2.5rem;
+            color: var(--text-color);
+            margin-bottom: 1rem;
+        }
+
+        .privacy-header p {
+            color: #6b7280;
+        }
+
+        .section {
+            margin-bottom: 2.5rem;
+        }
+
+        .section h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .section p,
+        .section ul {
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+
+        .section ul {
+            padding-left: 2rem;
+        }
+
+        .section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            background-color: var(--light-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+        }
+
+        .last-updated {
+            margin-top: 3rem;
+            color: #6b7280;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .privacy-header h1 {
+                font-size: 2rem;
+            }
+
+            .section h2 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Expense X</a>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="privacy-content">
+        <div class="container">
+            <div class="privacy-header">
+                <h1>Privacy Policy</h1>
+                <p>Last updated: April 9, 2025</p>
+            </div>
+
+            <div class="section">
+                <h2>Introduction</h2>
+                <p>Welcome to Expense X. We respect your privacy and are committed to protecting your personal data.
+                    This privacy policy will inform you about how we look after your personal data when you use our app
+                    and tell you about your privacy rights and how the law protects you.</p>
+            </div>
+
+            <div class="section">
+                <h2>Information We Collect</h2>
+                <p>When you use Expense X, we collect the following types of information:</p>
+                <ul>
+                    <li>Personal information (email address for account creation)</li>
+                    <li>Financial information (expense records, budget data)</li>
+                    <li>Device information (device ID, operating system version)</li>
+                    <li>Usage data (app features used, interaction patterns)</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>How We Use Your Information</h2>
+                <p>We use the collected information for:</p>
+                <ul>
+                    <li>Providing and maintaining the Expense X service</li>
+                    <li>Personalizing your experience</li>
+                    <li>Improving our app and services</li>
+                    <li>Communicating with you about updates and features</li>
+                    <li>Ensuring the security of your data</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Data Security</h2>
+                <p>We implement appropriate security measures to protect your personal information:</p>
+                <ul>
+                    <li>End-to-end encryption for sensitive financial data</li>
+                    <li>Secure data storage using industry-standard protocols</li>
+                    <li>Regular security audits and updates</li>
+                    <li>Limited access to personal information by authorized personnel only</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Data Sharing and Third Parties</h2>
+                <p>We do not sell or share your personal information with third parties except:</p>
+                <ul>
+                    <li>When required by law</li>
+                    <li>With your explicit consent</li>
+                    <li>With service providers who assist in operating our app (under strict confidentiality agreements)
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Your Rights</h2>
+                <p>You have the right to:</p>
+                <ul>
+                    <li>Access your personal data</li>
+                    <li>Correct inaccurate data</li>
+                    <li>Request deletion of your data</li>
+                    <li>Object to processing of your data</li>
+                    <li>Data portability</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Children's Privacy</h2>
+                <p>Our app is not intended for children under 13 years of age. We do not knowingly collect personal
+                    information from children under 13. If you become aware that a child has provided us with personal
+                    information, please contact us.</p>
+            </div>
+
+            <div class="section">
+                <h2>Changes to Privacy Policy</h2>
+                <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the
+                    new Privacy Policy on this page and updating the "Last updated" date.</p>
+            </div>
+
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>If you have any questions about this Privacy Policy, please contact us:</p>
+                <ul>
+                    <li>Email: privacy@Expense X.com</li>
+                    <li>Address: [Your Company Address]</li>
+                </ul>
+            </div>
+
+            <p class="last-updated">This privacy policy was last updated on April 9, 2025.</p>
+        </div>
+    </div>
+    <script>
+        const themeToggle = document.getElementById('themeToggle');
+        const icon = themeToggle.querySelector('i');
+
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            html.setAttribute('data-theme', newTheme);
+            icon.className = newTheme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
+
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Set initial theme from localStorage
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        icon.className = savedTheme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
+
+        themeToggle.addEventListener('click', toggleTheme);
+    </script>
+</body>
+
+</html>

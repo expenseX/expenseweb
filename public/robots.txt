@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://Expense X.com/sitemap.xml
+
+# Prevent indexing of staging/development environments
+User-agent: *
+Disallow: /staging/
+Disallow: /dev/
